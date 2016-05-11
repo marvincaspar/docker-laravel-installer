@@ -2,7 +2,9 @@
 
 This is a docker container which creates a new laravel project without installing composer locally.
 
-To create a new project create a directory for your project and run
+## Usage
+
+For creating a new laravel project go into your project folder and run the following command:
 
 ```sh
 docker run --rm -t -v $(pwd):/app mc388/laravel-installer
